@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Coffee House</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="Home.html">Home</a>
+<a href="Menu.html">Menu</a>
+<a href="Order.html">Order</a>
+<a href="Photo Spot.html">Photo Spot</a>
+<a href="Contact.html">Contact</a>
+
+
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Modern Coffee House</h1>
+<p>Fresh Coffee • Cozy Place • Best Photo Spot</p>
+<a href="menu.html" class="btn">View Menu</a>
+</div>
+</section>
+
+<section class="container">
+<h2>About Our Coffee Shop</h2>
+<br>
+<p>
+Welcome to Modern Coffee House. Enjoy premium coffee,
+comfortable seating, and beautiful photo spots.
+</p>
+</section>
+
+<footer>
+Modern Coffee House © 2025
+</footer>
+<style>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fff7ed;
+color:#333;
+}
+
+nav{
+background:#ea580c;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#fef3c7;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085") center/cover;
+}
+
+.hero-content{
+background:rgba(0,0,0,0.5);
+padding:30px;
+border-radius:10px;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+background:#f97316;
+color:white;
+padding:12px 25px;
+margin-top:15px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-body{
+padding:15px;
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.price{
+color:#ea580c;
+font-weight:bold;
+}
+
+form{
+max-width:500px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+input,select,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:#ea580c;
+color:white;
+border:none;
+padding:12px;
+width:100%;
+cursor:pointer;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.contact-box{
+max-width:600px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+}
+
+footer{
+background:#ea580c;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+</body>
+</html>
